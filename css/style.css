@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* NAVIGACE*/
+
+nav ul li a img {
+    width: 24px;
+    vertical-align: text-bottom;
+}
+
+nav {
+    background: rgba(0,0,0,0.8);
+}
+
+nav ul {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+nav ul li {
+    list-style-type: none;
+    width: 145px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #e2beae;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Main - hlavní obsah*/
+
+.firstPhoto {
+    background: black;
+}
+
+.firstPhoto img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+main h2 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+main h2 span {
+    font-size: 60px;
+}
+
+.section1 img {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.rotace {
+    transform: rotate(15deg);
+}
+
+.section2 h2 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+/*PATIČKA*/
+footer {
+    background: #ededee;
+    color: #86868b;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.watch {
+    width: 20%;
+    transform: rotate(15deg);
+}
+
+.appletv {
+    width: 20%;
+}
+
+/* Macbook stránka*/
+
